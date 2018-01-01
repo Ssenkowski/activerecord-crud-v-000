@@ -16,7 +16,7 @@ def can_be_created_with_a_hash_of_attributes(attributes)
 end
 
 def can_be_created_in_a_block
-  Movie.new do |m|
+  Movie.create do |m|
     m.title = title
     m.release_date = year
   end
