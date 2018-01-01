@@ -17,7 +17,7 @@ end
 
 def can_be_created_in_a_block
   movie = Movie.create do |m|
-    m.title = title
+    m.title = "The Matrix"
     m.release_date = year
   end
 end
