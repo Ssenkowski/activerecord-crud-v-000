@@ -23,7 +23,7 @@ def can_be_created_with_a_hash_of_attributes
 end
 
 def can_be_created_in_a_block
-  Movie.create do |m|
+  movie = Movie.create do |m|
     __
   end
 end
