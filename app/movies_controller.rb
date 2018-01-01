@@ -25,7 +25,7 @@ end
 def can_be_created_in_a_block
   movie = Movie.create do |m|
     title = m.title
-    release_date = m.release_date
+    year = m.release_date
   end
 end
 
